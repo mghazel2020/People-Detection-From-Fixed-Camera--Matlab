@@ -49,25 +49,6 @@ Next, we shall illusttate each of these techniques.
 ## 3.1 Background Estimation (BE)
 
 In this section, we briefly illusttate the backgground estimation results using each of the four background subtraction estimation techniques, described above.
-
-<table>
-  <tr>
-    <td> BE Method 1 </td>
-    <td> <img src="figures/estimated-background-method-1-frame-1.jpg" width="400"></td>
-  </tr> 
-  <tr>
-    <td> BE Method 2 </td>
-    <td> <img src="figures/estimated-background-method-2-frame-100.jpg" width="400></td>
-  </tr>
-  <tr>
-    <td> BE Method 3 </td>
-    <td> <img src="figures/estimated-background-method-3-frame-100.jpg" width="400"></td>
-  </tr> 
-  <tr>
-    <td> BE Method 4 </td>
-    <td> <img src="figures/estimated-background-method-4-frame-100.jpg" width="400"></td>
-  </tr>
-</table>
     
 <table>
   <tr>
@@ -92,34 +73,33 @@ In this section, we briefly illusttate the backgground estimation results using 
 
 ## 3.2 Change Detection (CD)
 
-
-div class="row">
-  <div class="column">
-    <img align="center" width="400" src="figures/estimated-background-method-1-frame-1.jpg">
-  </div>
-  <div class="column">
-    <img align="center" width="400" src="figures/estimated-background-method-2-frame-100.jpg">
-  </div>
-     <div class="column">
-    <img align="center" width="400" src="figures/estimated-background-method-3-frame-100.jpg">
-  </div>
-  <div class="column">
-    <img align="center" width="400" src="figures/estimated-background-method-4-frame-100.jpg">
-  </div>
-  <div class="column">
-    <img align="center" width="400" src="figures/estimated-background-method-1-frame-1.jpg">
-  </div>
-  <div class="column">
-    <img align="center" width="400" src="figures/estimated-background-method-2-frame-100.jpg">
-  </div>
-     <div class="column">
-    <img align="center" width="400" src="figures/estimated-background-method-3-frame-100.jpg">
-  </div>
-  <div class="column">
-    <img align="center" width="400" src="figures/estimated-background-method-4-frame-100.jpg">
-  </div>
-</div>
-
+<table>
+  <tr>
+    <td> BE </td>
+    <td> CD: Background-Subtration </td>
+    <td> CD: Cross-Correlation </td>
+  </tr>
+  <tr>
+    <td> Method 1 </td>
+    <td> <img src="figures/filtered-detected-bboxes--background-method-1--change-method-1-detections_frame_100.jpg" width="400"  ></td>
+    <td> <img src="figures/filtered-detected-bboxes--background-method-1--change-method-2-detections_frame_100.jpg" width="400"  ></td>
+  </tr>
+  <tr>
+    <td> Method 2 </td>
+    <td> <img src="figures/filtered-detected-bboxes--background-method-2--change-method-1-detections_frame_100.jpg" width="400"  ></td>
+    <td> <img src="figures/filtered-detected-bboxes--background-method-2--change-method-2-detections_frame_100.jpg" width="400"  ></td>
+  </tr>
+  <tr>
+    <td> Method 3 </td>
+    <td> <img src="figures/filtered-detected-bboxes--background-method-3--change-method-1-detections_frame_100.jpg" width="400"  ></td>
+    <td> <img src="figures/filtered-detected-bboxes--background-method-3--change-method-2-detections_frame_100.jpg" width="400"  ></td>
+  </tr>
+  <tr>
+    <td> Method 4 </td>
+    <td> <img src="figures/filtered-detected-bboxes--background-method-4--change-method-1-detections_frame_100.jpg" width="400"  ></td>
+    <td> <img src="figures/filtered-detected-bboxes--background-method-4--change-method-2-detections_frame_100.jpg" width="400"  ></td>
+  </tr>
+</table>
 
 
 
