@@ -50,7 +50,7 @@ Next, we shall illusttate each of these techniques.
 
 In this section, we briefly illusttate the backgground estimation results using each of the four background subtraction estimation techniques, described above.
 
-table>
+<table>
   <tr>
     <td> BE Method 1 </td>
     <img align="center" width="400" src="figures/estimated-background-method-1-frame-1.jpg">
