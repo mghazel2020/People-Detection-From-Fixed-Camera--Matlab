@@ -50,73 +50,55 @@ Next, we shall illusttate each of these techniques.
 
 In this section, we briefly illusttate the backgground estimation results using each of the four background subtraction estimation techniques, described above.
 
-<div class="row">
-  <div class="column">
-    <img align="center" width="200" src="figures/estimated-background-method-1-frame-1.jpg">
-  </div>
-  <div class="column">
-    <img align="center" width="200" src="figures/estimated-background-method-2-frame-100.jpg">
-  </div>
-     <div class="column">
-    <img align="center" width="200" src="figures/estimated-background-method-3-frame-100.jpg">
-  </div>
-  <div class="column">
-    <img align="center" width="200" src="figures/estimated-background-method-4-frame-100.jpg">
-  </div>
-</div>
+table>
+  <tr>
+    <td> BE Method 1 </td>
+    <img align="center" width="400" src="figures/estimated-background-method-1-frame-1.jpg">
+   </tr> 
+   <tr>
+    <td> BE Method 2 </td>
+    <img align="center" width="400" src="figures/estimated-background-method-2-frame-100.jpg">
+  </tr>
+  <tr>
+    <td> BE Method 3 </td>
+    <img align="center" width="400" src="figures/estimated-background-method-3-frame-100.jpg">
+  </tr>
+  <tr>
+    <td> BE Method 4 </td>
+    <img align="center" width="400" src="figures/estimated-background-method-4-frame-100.jpg">
+  </tr>
+</table>
     
-
-### 3.1.1 BE Method 1
-
-B(t): The first frame, prior to time t, which is known to contain only the scene background and no foreign objects temporarily introduced to the scene.
-
-<div class="row">
-  <div class="column">
-    <img align="left" width="400" src="figures/estimated-background-method-1-frame-1.jpg">
-  </div>
-</div>
-
-### 3.1.2 BE Method 2
-
-B(t): The last frame, prior to time t, for which no changes were detected, thus it should contain only the scene background and no foreign objects temporarily introduced to the scene.
-
-<div class="row">
-  <div class="column">
-    <img align="left" width="400" src="figures/estimated-background-method-2-frame-100.jpg">
-  </div>
-</div>
-
-### 3.1.3 BE Method 3
-
-B(t): The average of all frames F(s), s<t, for which no changes were detected, thus it should contain only the scene background and no foreign objects temporarily introduced to the scene.
-
-<div class="row">
-  <div class="column">
-    <img align="left" width="400" src="figures/estimated-background-method-3-frame-100.jpg">
-  </div>
-</div>
-
-### 3.1.4 BE Method 4
-
-B(t): The average of all frames F(s), s<t.
-
-<div class="row">
-  <div class="column">
-    <img align="left" width="400" src="figures/estimated-background-method-4-frame-100.jpg">
-  </div>
-</div>
 
 ## 3.2 Change Detection (CD)
 
-### 3.2.1 CD Method 1
 
-Absolute background subtraction: **C(t) = |F(t) - B(t)|**, where **|.|** indicate the absolute value.
-
-### 3.2.2 CD Method s
-
-The cross-correlation: **C(t) = 1 - [cc(F(t), B(t))]^2|**, where **cc(.,.)** indicate the cross-correlation between 2 images
-
-
+div class="row">
+  <div class="column">
+    <img align="center" width="400" src="figures/estimated-background-method-1-frame-1.jpg">
+  </div>
+  <div class="column">
+    <img align="center" width="400" src="figures/estimated-background-method-2-frame-100.jpg">
+  </div>
+     <div class="column">
+    <img align="center" width="400" src="figures/estimated-background-method-3-frame-100.jpg">
+  </div>
+  <div class="column">
+    <img align="center" width="400" src="figures/estimated-background-method-4-frame-100.jpg">
+  </div>
+  <div class="column">
+    <img align="center" width="400" src="figures/estimated-background-method-1-frame-1.jpg">
+  </div>
+  <div class="column">
+    <img align="center" width="400" src="figures/estimated-background-method-2-frame-100.jpg">
+  </div>
+     <div class="column">
+    <img align="center" width="400" src="figures/estimated-background-method-3-frame-100.jpg">
+  </div>
+  <div class="column">
+    <img align="center" width="400" src="figures/estimated-background-method-4-frame-100.jpg">
+  </div>
+</div>
 
 
 
