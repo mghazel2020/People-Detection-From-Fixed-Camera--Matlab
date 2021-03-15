@@ -61,7 +61,7 @@ In this section, we briefly illusttate the backgground estimation results using 
   </tr>
   <tr>
     <td> BE Method 3 </td>
-    <td> <img src="figures/estimated-background-method-1-frame-1.jpg" width="400"></td>
+    <td> <img src="figures/estimated-background-method-3-frame-100.jpg" width="400"></td>
   </tr> 
   <tr>
     <td> BE Method 4 </td>
