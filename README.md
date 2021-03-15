@@ -19,10 +19,10 @@ We used the labelled PETS2006 baseline data subset from the ([dataset-2012](http
 
 <div class="row">
   <div class="column">
-    <img src="figures/in000001.jpg" width="450">
+    <img align="left" width="400" src="figures/in000001.jpg">
   </div>
   <div class="column">
-    <img src="figures/in000108.jpg" width="450">
+    <img lign="right" width="400" src="figures/in000108.jpg">
   </div>
 </div>
     
@@ -48,9 +48,20 @@ Next, we shall illusttate each of these techniques.
   
 ## 3.1 Background Estimation (BE)
 
+In this section, we briefly illusttate the backgground estimation results using each of the four background subtraction estimation techniques, described above.
+
 ### 3.1.1 BE Method 1
 
 B(t): The first frame, prior to time t, which is known to contain only the scene background and no foreign objects temporarily introduced to the scene.
+
+<div class="row">
+  <div class="column">
+    <img align="left" width="400" src="figures/in000001.jpg">
+  </div>
+  <div class="column">
+    <img lign="right" width="400" src="figures/in000108.jpg">
+  </div>
+</div>
 
 ### 3.1.2 BE Method 2
 
