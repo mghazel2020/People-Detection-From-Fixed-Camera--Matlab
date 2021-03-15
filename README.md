@@ -70,12 +70,11 @@ In this section, we briefly illusttate the backgground estimation results using 
 </table>
 
 
-
 ## 3.2 Change Detection (CD)
 
 In this section, we  illusttate the people detection results obtained using the:
 * The 4 different background-estimation methods
-* * The 2 different change detcetion methods
+* The 2 different change detcetion methods
 
 <table>
   <tr>
@@ -107,7 +106,7 @@ In this section, we  illusttate the people detection results obtained using the:
 
 
 
-### 3.3 Final Assessment
+### 3.3 Observations
 
 In view of the presednted results, we make the following observations:
 
