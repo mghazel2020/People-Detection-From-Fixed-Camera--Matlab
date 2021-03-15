@@ -115,7 +115,7 @@ In view of the presednted results, we make the following observations:
 * The cross corrrelation performance is comparable to the typically used background subtraction approach
 
 
-# 5. Future Work
+# 4. Future Work
 
 To use the ground-truth of the labelled data set to assess the performance of the BE and CD methods based on quantitative metrics, suchas:
 
