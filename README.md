@@ -73,29 +73,33 @@ In this section, we briefly illusttate the backgground estimation results using 
 
 ## 3.2 Change Detection (CD)
 
+In this section, we  illusttate the people detection results obtained using the:
+* The 4 different background-estimation methods
+* * The 2 different change detcetion methods
+
 <table>
   <tr>
-    <td> BE </td>
+    <td> </td>
     <td> CD: Background-Subtration </td>
     <td> CD: Cross-Correlation </td>
   </tr>
   <tr>
-    <td> Method 1 </td>
+    <td> BE Method 1 </td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-1--change-method-1-detections_frame_100.jpg" width="400"  ></td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-1--change-method-2-detections_frame_100.jpg" width="400"  ></td>
   </tr>
   <tr>
-    <td> Method 2 </td>
+    <td> BE Method 2 </td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-2--change-method-1-detections_frame_100.jpg" width="400"  ></td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-2--change-method-2-detections_frame_100.jpg" width="400"  ></td>
   </tr>
   <tr>
-    <td> Method 3 </td>
+    <td> BE Method 3 </td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-3--change-method-1-detections_frame_100.jpg" width="400"  ></td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-3--change-method-2-detections_frame_100.jpg" width="400"  ></td>
   </tr>
   <tr>
-    <td> Method 4 </td>
+    <td> BE Method 4 </td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-4--change-method-1-detections_frame_100.jpg" width="400"  ></td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-4--change-method-2-detections_frame_100.jpg" width="400"  ></td>
   </tr>
@@ -103,39 +107,20 @@ In this section, we briefly illusttate the backgground estimation results using 
 
 
 
+### 3.3 Final Assessment
 
-### 4.6.3 Final Assessment
+In view of the presednted results, we make the following observations:
 
-In this final assessment, we compare the performance, in terms of its prediction accuracy, of the trained SVM model using default paramaters, as well as the more optimal parameters, as identified by the Grid-Search and the Random-Serach algorithms. Clearly, apply the serach algorithms has resulted in using more suitable hyperperameters for our DIGITS data set and yielding better classification accuracy.
-
-
-| Model Name       | Default Parameters | Random-Search Parameters | Grid-Search Parameters 
-|------------------|-------------------|--------------------|---------------------------------|
-|SVM          | 0.9416666666666667       | 0.9638212311280369                |  |0.9770349399922571 |
+* The bacground subtractionb appraoches yield similar background images
+* The averaging BE estimation methods average multiple images, resulting in reduction of the illumination variation effects.
+* The cross corrrelation performance is comparable to the typically used background subtraction approach
 
 
-# 5. Comparison of the 5 ML classification algorithms
+# 5. Future Work
 
-The table below compares the performance of the 5 evaluated ML classification algorithms on the DIGITS data set using the default parameters as well as the more optimal paramaters as obtained by the grid-search and randon-search algorithms. We note:
+To use the ground-truth of the labelled data set to assess the performance of the BE and CD methods based on quantitative metrics, suchas:
 
-* As expected, for every ML algorithm,  the grid-search algorithm consistently yields the significant improvement as compared to using the default hyperparameters
-* Also, as expected and for every ML algorithm,  the random-search algorithm consistently yields the significant improvement as compared to using the default hyperparameters but in all the cases the improvment is not as good as the grid-search algorithm. 
-* Although, for every ML algorithm, the grid-search algorithm yields the best calssification results, this comes at the expense of expensive computational complexity to search the full grid for more optimal paramaters.
-* The SVM algorithm yields the best callification accurary when using the default algorithm paramaters as well as when using the optimized hyperparamaters, as obtained by the grid-search algorithm
+* ROC curves
+* PR curves
+* Everall detection accuracy.
 
-
-| Model Name       | Default Parameters |  Random-Search Parameters |  Grid-Search Parameters
-|------------------|-------------------|--------------------|---------------------------------|
-|Support Vector Machine (SVM)          | 0.9416666666666667       | 0.9638212311280369               | 0.9770349399922571  |
-|Logistric Regression (LR)         |   0.8577777777777778      |   0.9287437004246013             |  0.9406361007847996 |
-|Random Forest (RF)          | 0.9333333333333333       |  0.9369451148879789              | 0.9492111885404567  |
-| Multi-Layer Perceptron (MLP)          |0.9138888888888889       |  0.9366886072810814        | 0.9617257065427797  |
-|Stochastic Gradient Descent (SGD)         | 0.8944444444444445       |  0.9199881063532219              | 0.9276495354239256  |
-
-
-
-The implementation of each of these algorithms case be found in **./code/** directory of this repository. 
-
-# 6. Conclusions
-
-In this project, we demonstrated how to use scikit-learn to recognize images of hand-written digits, using various Machine Learning (ML) built-in image classification functionalities and compare their performance. We applied and implemented the standard ML via Scikit-Learn process, and illustrated the output of each step. 
