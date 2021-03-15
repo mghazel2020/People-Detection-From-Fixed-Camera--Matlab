@@ -134,6 +134,7 @@ The table below compares the performance of the 5 evaluated ML classification al
 |Stochastic Gradient Descent (SGD)         | 0.8944444444444445       |  0.9199881063532219              | 0.9276495354239256  |
 
 
+
 The implementation of each of these algorithms case be found in **./code/** directory of this repository. 
 
 # 6. Conclusions
