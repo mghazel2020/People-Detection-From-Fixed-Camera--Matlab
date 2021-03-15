@@ -69,6 +69,25 @@ In this section, we briefly illusttate the backgground estimation results using 
   </tr>
 </table>
     
+<table>
+  <tr>
+    <td> BE Method 1 </td>
+    <td> <img src="figures/estimated-background-method-1-frame-1.jpg" width="500"  ></td>
+   </tr> 
+   <tr>
+    <td> BE Method 2 </td>
+    <td> <img src="figures/estimated-background-method-2-frame-100.jpg" width="500"  ></td>
+  </tr>
+  <tr>
+    <td> BE Method 3 </td>
+    <td> <img src="figures/estimated-background-method-3-frame-100.jpg" width="500"  ></td>
+  </tr>
+  <tr>
+    <td> BE Method 4 </td>
+    <td> <img src="figures/estimated-background-method-4-frame-100.jpg" width="500"  ></td>
+  </tr>
+</table>
+
 
 
 ## 3.2 Change Detection (CD)
