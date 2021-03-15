@@ -36,13 +36,13 @@ We used the labelled PETS2006 baseline data subset from the ([dataset-2012](http
  The implemented people detection approach is based on the following 2 steps:
 
 1. Estimate the backgound image: We explored the four different background estimation techniques:
-   1.1 B(t): The first frame, prior to time t, which is known to contain only the scene background and no foreign objects temporarily introduced to the scene.
-   1.2 B(t): The last frame, prior to time t, for which no changes were detected, thus it should contain only the scene background and no foreign objects temporarily introduced to the scene.
-   1.3 B(t): The average of all frames F(s), s<t, for which no changes were detected, thus it should contain only the scene background and no foreign objects temporarily introduced to the scene.
-   1.4 B(t): The average of all frames F(s), s<t.
+   * B(t): The first frame, prior to time t, which is known to contain only the scene background and no foreign objects temporarily introduced to the scene.
+   * B(t): The last frame, prior to time t, for which no changes were detected, thus it should contain only the scene background and no foreign objects temporarily introduced to the scene.
+   *  B(t): The average of all frames F(s), s<t, for which no changes were detected, thus it should contain only the scene background and no foreign objects temporarily introduced to the scene.
+   * B(t): The average of all frames F(s), s<t.
 2. Estimate the change between the current frame foreground image and the background: Wee explored two different change detcetion techniques. 
-   2.1 Absolute background subtraction: **C(t) = |F(t) - B(t)|**, where **|.|** indicate the absolute value.
-   2.2 The cross-correlation: **C(t) = 1 - [cc(F(t), B(t))]^2|**, where **cc(.,.)** indicate the cross-correlation between 2 images
+   * Absolute background subtraction: **C(t) = |F(t) - B(t)|**, where **|.|** indicate the absolute value.
+   * The cross-correlation: **C(t) = 1 - [cc(F(t), B(t))]^2|**, where **cc(.,.)** indicate the cross-correlation between 2 images
   
 Next, we shall illusttate each of these techniques.
   
