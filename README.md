@@ -54,20 +54,20 @@ In this section, we briefly illusttate the backgground estimation results using 
     
 <table>
   <tr>
-    <td> BE Method 1 </td>
-    <td> <img src="figures/estimated-background-method-1-frame-1.jpg" width="500"  ></td>
+    <td> Bacground Estimation Method # 1 </td>
+    <td> Bacground Estimation Method # 2 </td>
    </tr> 
    <tr>
-    <td> BE Method 2 </td>
+    <td> <img src="figures/estimated-background-method-1-frame-1.jpg" width="500"  ></td>
     <td> <img src="figures/estimated-background-method-2-frame-100.jpg" width="500"  ></td>
   </tr>
+   <tr>
+    <td> Bacground Estimation Method # 3 </td>
+    <td> Bacground Estimation Method # 4 </td>
+   </tr> 
   <tr>
-    <td> BE Method 3 </td>
     <td> <img src="figures/estimated-background-method-3-frame-100.jpg" width="500"  ></td>
-  </tr>
-  <tr>
-    <td> BE Method 4 </td>
-    <td> <img src="figures/estimated-background-method-4-frame-100.jpg" width="500"  ></td>
+     <td> <img src="figures/estimated-background-method-4-frame-100.jpg" width="500"  ></td>
   </tr>
 </table>
 
@@ -80,7 +80,6 @@ In this section, we  illusttate the people detection results obtained using the:
 
 <table>
   <tr>
-    <td> </td>
     <td> CD: Background-Subtration </td>
     <td> CD: Cross-Correlation </td>
   </tr>
