@@ -72,6 +72,17 @@ In this section, we briefly illusttate the backgground estimation results using 
 </table>
 
 
+<table>
+  <tr>
+    <td> Absolute background subtraction </td>
+    <td> <img src="figures/background-estimation-method-4-change-detection-method-1-frame-100.jpg" width="500"  ></td>
+   </tr> 
+   <tr>
+    <td> Inverted cross-correlation </td>
+    <td> <img src="figures/background-estimation-method-4-change-detection-method-2-frame-100.jpg" width="500"  ></td>
+   </tr> 
+</table>
+
 ## 3.2 Change Detection (CD)
 
 In this section, we  illusttate the people detection results obtained using the:
