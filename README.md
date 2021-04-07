@@ -75,11 +75,11 @@ In this section, we briefly illusttate the backgground estimation results using 
 <table>
   <tr>
     <td> Absolute Background Subtraction </td>
-    <td> <img src="figures/background-estimation-method-4-change-detection-method-1-frame-100.jpg" width="500"  ></td>
+    <td> <img src="figures/background-estimation-method-4-change-detection-method-1-frame-100.jpg" width="800"  ></td>
    </tr> 
    <tr>
     <td> Inverted Cross-correlation </td>
-    <td> <img src="figures/background-estimation-method-4-change-detection-method-2-frame-100.jpg" width="500"  ></td>
+    <td> <img src="figures/background-estimation-method-4-change-detection-method-2-frame-100.jpg" width="800"  ></td>
    </tr> 
 </table>
 
