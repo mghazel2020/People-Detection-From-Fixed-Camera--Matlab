@@ -136,3 +136,9 @@ To use the ground-truth of the labelled data set to assess the performance of th
 * PR curves
 * Everall detection accuracy.
 
+
+# 5. References
+
+Change Detection.NET: A video databse for testing chnage detection algorithms. (April 7th, 2021). 
+http://jacarini.dinf.usherbrooke.ca/
+
