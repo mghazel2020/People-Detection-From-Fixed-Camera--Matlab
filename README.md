@@ -91,26 +91,27 @@ In this section, we  illusttate the people detection results obtained using the:
 
 <table>
   <tr>
+     <td>  </td>
     <td> CD: Background-Subtration </td>
     <td> CD: Cross-Correlation </td>
   </tr>
   <tr>
-    <td> BE Method 1 </td>
+    <td> BE: Method 1 </td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-1--change-method-1-detections_frame_100.jpg" width="400"  ></td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-1--change-method-2-detections_frame_100.jpg" width="400"  ></td>
   </tr>
   <tr>
-    <td> BE Method 2 </td>
+    <td> BE: Method 2 </td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-2--change-method-1-detections_frame_100.jpg" width="400"  ></td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-2--change-method-2-detections_frame_100.jpg" width="400"  ></td>
   </tr>
   <tr>
-    <td> BE Method 3 </td>
+    <td> BE: Method 3 </td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-3--change-method-1-detections_frame_100.jpg" width="400"  ></td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-3--change-method-2-detections_frame_100.jpg" width="400"  ></td>
   </tr>
   <tr>
-    <td> BE Method 4 </td>
+    <td> BE: Method 4 </td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-4--change-method-1-detections_frame_100.jpg" width="400"  ></td>
     <td> <img src="figures/filtered-detected-bboxes--background-method-4--change-method-2-detections_frame_100.jpg" width="400"  ></td>
   </tr>
