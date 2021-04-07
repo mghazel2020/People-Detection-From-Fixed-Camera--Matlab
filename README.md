@@ -16,15 +16,17 @@ We compared the detection results using the different combinations of the implme
 We used the labelled PETS2006 baseline data subset from the ([dataset-2012](http://jacarini.dinf.usherbrooke.ca/dataset2012/)):
 * It consist of 1200 color video frames of an indoor scene acquired by fixed camera 
 * A sample background and background images from the input data set are illustrated in figure below.
+<table>
+  <tr>
+    <td> <img align="left" width="400" src="figures/in000001.jpg"> </td>
+    <td> <img lign="right" width="400" src="figures/in000100.jpg"></td>
+   </tr> 
+   <tr>
+    <td> Frame # 1: Clear background </td>
+    <td> Frame # 100: New objects (people) in the foreground. </td>
+  </tr>
+</table>
 
-<div class="row">
-  <div class="column">
-    <img align="left" width="400" src="figures/in000001.jpg">
-  </div>
-  <div class="column">
-    <img lign="right" width="400" src="figures/in000100.jpg">
-  </div>
-</div>
     
 # 3. Approach
 
