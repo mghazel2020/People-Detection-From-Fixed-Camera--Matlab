@@ -1,6 +1,6 @@
-# People-Detection-Fixed-Camera--Matlab
+# People Detection from Fixed-Camera Imagery -- Matlab
 
-# 1. Objectives
+## 1. Objectives
 
 The objective of this project is to demonstrate how to detect moving and stand-still people and other objects introduced to a scene monitored by a fixed-camera system. The implemented approach is based on the following 2 steps:
 
@@ -11,7 +11,7 @@ The objective of this project is to demonstrate how to detect moving and stand-s
   
 We compared the detection results using the different combinations of the implmented background estimate and chnage detection techniques.
 
-# 2. Data Set
+## 2. Data Set
 
 We used the labelled PETS2006 baseline data subset from the ([dataset-2012](http://jacarini.dinf.usherbrooke.ca/dataset2012/)):
 * It consist of 1200 color video frames of an indoor scene acquired by fixed camera 
@@ -28,7 +28,7 @@ We used the labelled PETS2006 baseline data subset from the ([dataset-2012](http
 </table>
 
     
-# 3. Approach
+## 3. Implemented Approach
 
  Suppose that at time **t**, we intriduce the following notations:
  * **F(t)**: The camera acquired frame.
@@ -48,7 +48,7 @@ We used the labelled PETS2006 baseline data subset from the ([dataset-2012](http
   
 Next, we shall illusttate each of these techniques.
   
-## 3.1 Background Estimation (BE)
+### 3.1 Background Estimation (BE)
 
 In this section, we briefly illusttate the backgground estimation results using each of the four background subtraction estimation techniques, described above.
     
@@ -83,7 +83,7 @@ In this section, we briefly illusttate the backgground estimation results using 
    </tr> 
 </table>
 
-## 3.2 Change Detection (CD)
+### 3.2 Change Detection (CD)
 
 In this section, we  illusttate the people detection results obtained using the:
 * The 4 different background-estimation methods
@@ -128,7 +128,7 @@ In view of the presednted results, we make the following observations:
 * The cross corrrelation performance is comparable to the typically used background subtraction approach
 
 
-# 4. Future Work
+## 4. Future Work
 
 To use the ground-truth of the labelled data set to assess the performance of the BE and CD methods based on quantitative metrics, suchas:
 
@@ -137,7 +137,7 @@ To use the ground-truth of the labelled data set to assess the performance of th
 * Everall detection accuracy.
 
 
-# 5. References
+## 5. References
 
 1. Change Detection.NET: A video databse for testing chnage detection algorithms. (April 7th, 2021). 
 http://jacarini.dinf.usherbrooke.ca/
