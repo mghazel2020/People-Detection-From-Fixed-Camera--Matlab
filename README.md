@@ -22,8 +22,8 @@ We used the labelled PETS2006 baseline data subset from the ([dataset-2012](http
     <td> <img lign="right" width="400" src="figures/in000100.jpg"></td>
    </tr> 
    <tr>
-    <td style="text-align:center"> Frame # 1: Clear background </td>
-    <td style="text-align:center"> Frame # 100: New objects (people) in the foreground. </td>
+    <td align="center"> Frame # 1: Clear background </td>
+    <tdalign="center"> Frame # 100: New objects (people) in the foreground. </td>
   </tr>
 </table>
 
