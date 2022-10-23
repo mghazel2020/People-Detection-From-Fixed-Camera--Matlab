@@ -1,4 +1,4 @@
-# People Detection from Fixed-Camera Imagery -- Matlab
+# People Detection from Fixed-Camera Imagery in Matlab
 
 ## 1. Objectives
 
