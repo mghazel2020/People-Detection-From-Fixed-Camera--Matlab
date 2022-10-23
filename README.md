@@ -137,6 +137,6 @@ To use the ground-truth of the labelled data set to assess the performance of th
 
 ## 5. References
 
-1. Change Detection.NET: A video databse for testing chnage detection algorithms. (April 7th, 2021). 
+1. Change Detection.NET: A video databse for testing chnage detection algorithms. (October 1st, 2022). 
 http://jacarini.dinf.usherbrooke.ca/
 
