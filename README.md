@@ -1,5 +1,10 @@
 # People Detection from Fixed-Camera Imagery in Matlab
 
+<tr>
+    <td> <img align="left" width="600" src="figures/People-Detection-BS.gif"> </td>
+  </tr>
+</table>
+
 ## 1. Objectives
 
 The objective of this project is to demonstrate how to detect moving and stand-still people and other objects introduced to a scene monitored by a fixed-camera system. The implemented approach is based on the following 2 steps:
