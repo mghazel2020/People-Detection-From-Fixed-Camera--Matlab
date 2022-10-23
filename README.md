@@ -2,7 +2,7 @@
 
 <table>
 <tr>
-    <td> <img align="left" width="600" src="figures/People-Detection-BS.gif"> </td>
+    <td> <img align="left" width="400" src="figures/People-Detection-BS.gif"> </td>
   </tr>
 </table>
 
