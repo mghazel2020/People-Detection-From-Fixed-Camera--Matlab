@@ -77,8 +77,6 @@ In this section, we briefly illusttate the background estimation results using e
      <td align="center"> <img src="figures/estimated-background-method-4-frame-100.jpg" width="500"  ></td>
   </tr>
 </table>
-
-
 <table>
   <tr>
     <td align="center"> Absolute Background Subtraction </td>
