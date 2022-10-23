@@ -1,9 +1,11 @@
 # People Detection from Fixed-Camera Imagery in Matlab
 
+<table>
 <tr>
     <td> <img align="left" width="600" src="figures/People-Detection-BS.gif"> </td>
   </tr>
 </table>
+
 
 ## 1. Objectives
 
