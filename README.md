@@ -14,7 +14,7 @@ We shall compare the detection results using the different combinations of the i
 ## 2. Data Set
 
 We used the labelled PETS2006 baseline data subset from the ([dataset-2012](http://jacarini.dinf.usherbrooke.ca/dataset2012/)):
-* It consist of 1200 color video frames of an indoor scene acquired by fixed camera 
+* It consists of 1200 color video frames of an indoor scene acquired by fixed camera 
 * A sample background and background images from the input data set are illustrated in figure below.
 <table>
   <tr>
