@@ -1,6 +1,6 @@
 # People Detection from Fixed-Camera Imagery in Matlab
 
-<img src="figures/People-Detection-BS.gif" width="500" > 
+<img src="figures/People-Detection-BS.gif" width="1000" > 
 
 ## 1. Objective
 
@@ -46,7 +46,7 @@ In section 4 we shall illustrate the development of these techniques.
     * It consist of 1200 color video frames of an indoor scene acquired by fixed camera
     * A sample background and background images from the input data set are illustrated in figure below.
 
-<img src="figures/two-sample-images.PNG" width="500"> 
+<img src="figures/two-sample-images.PNG" width="1000"> 
 
 ## 4. Development
 
